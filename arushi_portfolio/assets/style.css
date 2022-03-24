@@ -1,0 +1,293 @@
+body {
+	color: #191919;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	background-image: url(../image_2/flower_bg.png);
+}
+#container{
+	width: 1280px;
+	height: auto;
+	background-color:#FFFFFF;
+	margin: auto;
+}
+
+header {
+	width: 1280px;
+	height: 250px;
+	background-image: url(../image_2/header_computer.png);	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+	
+/*Float the main so it shows up next to the Aside. Reduce width by 150px so they both line the header.*/
+	
+main {
+    background-color: #FFFFFF;
+    width: 1100px;
+    height: 100px;
+    float: left;
+    padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+aside {
+	width: 150px;
+	height: 5000px;
+	background-color: #F9A34A;
+	float: left;	
+	color: #FFFFFF;
+}
+
+p {
+    font-family: kigelia-lgc,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 540px;
+	color: #F38B1F;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+ul, ol, li {
+	color: #F38B1F;
+}
+h3  {
+	font-size: 12pt;
+	padding: 10px;
+}
+
+h2 {
+	color: #F58EA0;
+	font-family: myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 10px;
+}
+
+h1 {
+	color: #F58EA0;
+	font-family: myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 10px;
+}
+
+article {
+	margin-bottom: 50px;
+}
+
+table {
+	background-color: #F1C5CC;
+	
+}
+
+nav {
+	width: 1280px;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	background-color: #FFFFFF;
+}
+
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 60px;
+	margin: 5px 55px 0px 0px;
+	font-family: goodlife-brush, sans-serif; font-style: normal; font-size: 15pt;
+}
+
+#container nav ul {
+	margin: auto;
+	width: 480px;
+}
+
+nav	a:link {
+	color: #FDBD77;
+	text-decoration: none;
+	padding: 8px;
+}
+nav	a:visited {
+	color: #FDDBD9;
+	text-decoration: none;
+	padding: 8px;
+}
+nav	a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FDBD77;
+	border-radius: 20px;
+	padding: 8px;
+}
+nav	a:active {
+	color: #F58EA0;
+	text-decoration: none;
+	padding: 8px;
+}
+  
+.submit_btn {
+	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #F48EA0;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 13px;
+	-webkit-box-shadow: 6px 6px 40px 1px #323232;
+	box-shadow: 6px 6px 40px 1px #323232;
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
+
+footer {
+	width: 1250px;
+	height: 50px;
+	background-color: #F58EA0;
+	clear: both;
+	padding: 15px;
+	font-family: goodlife-brush, sans-serif; font-style: normal; font-size: 15pt;
+	color: white;	
+}
+.column {
+	width: 200px;
+	height: 800px;
+	float: left;
+	margin-left: 75px;
+	margin-right: 25px;
+}
+video {
+	width: 800px;
+	height: auto;
+	padding: 40px;
+}
+.border {
+	color: #F58EA0;
+	font-family: myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	background-color: #FFFFFF;
+	border: 5px solid #FDA172;
+  	box-sizing: border-box;
+ 	width: 80%;
+	float: left;
+}
+
+.cclicense {
+	width: 500px;
+	height: 120px;
+	clear: both;
+	padding: 30px 0px 0px 20px
+}
+
+
+/*Rules the page will follow for tablet-sized devices*/
+@media (max-width : 1024px ){
+	#container {
+		width: 768px;
+	}
+	header {
+		width: 768px;
+		height: 285px;
+		background-image: url("../image_2/header_ipad.png")
+	}
+	nav {
+	width: 768px;
+	margin: auto;
+	}
+	
+	main {
+		width: 598px;
+		height: 2500px;
+	}
+	footer {
+		width: 768px;
+	}
+	.column {
+		margin: 0px 20px 0px 75px;
+	}
+	img {
+		max-height: 250px;
+		max-width: 250px;
+		padding: 10px 15px 10px 15px;
+	}
+	video {
+		max-width: 500px;
+		padding: 10px;
+	}
+}
+
+/*Rules the page will follow*/
+@media only screen and (max-width : 375px ){
+	#container {
+		width: 300px;
+	}
+	header {
+		width: 300px;
+		height: 150px;
+		background-image: url("../image_2/header_phone.png")
+	}
+	nav {
+	width: 300px;
+	height: 250px;
+	position: static;
+	}
+	
+	main {
+		width: 280px;
+		height: 2600px;
+	}
+	footer {
+		width: 300px;
+	}
+	.column {
+		margin: 0px 20px 0px 75px;
+	}
+	img {
+		max-height: 250px;
+		max-width: 250px;
+		padding: 10px 10px 10px 15px;
+	}
+	aside {
+		display: none;
+	}
+	#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px -28px;
+	width: 260px;
+	text-align: center;
+	}
+	#container nav ul {
+	width: 260px;
+	}
+	nav a:link {
+	display: block;
+	width: 260px;
+	background: #E8798C;
+	color: white;
+	}
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+	}
+}

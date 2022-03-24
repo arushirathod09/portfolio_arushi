@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/mzy2fad.css">
+	<link rel="stylesheet" href="https://use.typekit.net/mzy2fad.css">
+<!-- TemplateBeginEditable name="head" -->
+	
+	<style type="text/css">
+	
+	</style>
+	
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<div id="container">
+  <header></header>
+  <nav>
+	  <ul>
+		  <li><a href="../pages/about.html">About</a></li>
+		  <li><a href="../pages/blog.html">Blog</a></li>
+		  <li><a href="../pages/gallery.html">Gallery</a></li>
+		  <li><a href="../pages/contact.html">Contact</a></li>
+	  </ul>
+  </nav>
+
+  <!--begin floated elements-->
+  <aside><h3>I am a flower lover, a tauras which is an earth sign, I am daughter, a student, and a graphic designer.</h3>
+	<h3>Join me as I examine life as my passions flourish.</h3>
+	<h3>by Jamless</h3></aside>
+  <!-- TemplateBeginEditable name="main-content" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+  <!-- TemplateEndEditable -->  <!--end floated elements--><!-- TemplateBeginEditable name="footer" -->
+  <footer>content for new footer tag goes here</footer>
+  <!-- TemplateEndEditable --></div>
+</body>
+</html>
